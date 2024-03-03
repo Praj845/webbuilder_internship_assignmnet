@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Components/headerComponent';
+import Footer from './Components/footerComponent';
+import './style.css';
+import PageOne from './pages/pageOne';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    <Header />
+    < PageOne />
+    <Footer />
   </React.StrictMode>
 );
 

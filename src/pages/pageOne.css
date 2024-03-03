@@ -1,0 +1,77 @@
+/* page-one.css (Tailwind CSS) */
+/* page-one.css (Tailwind CSS) */
+
+/* Adjust margin-top for vertical height */
+.my-8 {
+    margin-top: 8rem; /* Adjust as needed */
+  }
+  .page-one-container {
+    margin-top: 40px; /* Adjust the margin-top value as needed */
+    margin-bottom: 100%;
+    
+    
+  }
+  /* Custom Paper styling */
+  .paper-custom {
+    padding: p-4;
+    background-color: bg-black;
+    box-shadow: shadow-md;
+    border-radius: rounded-lg;
+    max-width: 1000px;
+    margin: mx-auto;
+    margin-top: mt-4;
+    margin-left: ml-8;
+    margin-right: mr-4;
+    margin-bottom: mb-6;
+    
+  
+    /* Responsive Styling */
+   
+  }
+  .border-none {
+    border: none !important;
+  }
+  /* @media (max-width: 640px) {
+    padding: p-2;
+    margin-top: mt-2;
+    margin-left: ml-2;
+    margin-right: mr-2;
+  } */
+  /* Add these styles to your existing style.css or create a new one */
+
+/* For the section containing the card */
+.mt-4 {
+  margin-top: 1rem; /* Adjust as needed */
+}
+
+/* For the overall card container */
+.w-full {
+  width: 100%; /* Full width */
+  display: flex; /* Use flexbox layout */
+}
+
+/* For the card image */
+/* Adjust the width as needed, in this case, 30% of the container width */
+.sx img {
+  width: 30%;
+  height: 250px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* For the card content */
+.pl-4 {
+  padding-left: 1rem;
+    /* Adjust as needed */
+}
+
+/* For the card title and chip */
+/* Align items vertically with space in between */
+.mb-2 {
+  margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
+/* For the card text */
+/* Add spacing between the image and text */
+.mb-4 {
+  margin-bottom: 1rem; /* Adjust as needed */
+}

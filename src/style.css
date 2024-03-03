@@ -1,0 +1,127 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.footer-global {
+    border-top: 2px solid #0f0b0b; /* Add your border style */
+    background-color: rgb(13, 12, 12);
+    color: rgb(240, 237, 237);
+    padding: 50px; /* Adjust as needed */
+   
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+    .footer-column {
+    flex: 1;
+    max-width: 10%; /* Adjust the spacing between columns as needed */
+    margin-bottom: 50px;
+    margin-left:50px;
+    
+  }
+  .footer-column h3 {
+    margin-bottom: 40px; /* Adjust the spacing between the heading and the list in pixels */
+    padding-left: 20px;
+  }
+  
+  .footer-column ul {
+    margin-bottom: 30px; /* Adjust the spacing between each list item in pixels */
+  }
+  
+  .footer-column li {
+    margin-bottom: 15px; /* Adjust the spacing between each row (list item) in pixels */
+  }
+  .footer-global .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  @media (max-width: 767px) {
+    .footer-column {
+      max-width: 100%;
+      margin-bottom: 20px; /* Adjust the spacing between columns for smaller screens */
+      padding: 10px;
+    }
+  }
+  select {
+    background-color: #1a202c; /* Dark color for the dropdown box */
+    color: rgb(247, 241, 241); /* Text color */
+    width: 100px;
+  }
+  .header-global {
+    background-color: black;
+    color: rgb(239, 232, 232);
+       /* Adjust padding as needed */
+  }
+  
+  .header-global .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-global nav {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .header-global nav div {
+    margin-right: 100px; /* Adjust margin between navigation links */
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right side */
+    width: 100%; /* Take full width of the container */
+    
+    margin-left: 100px;
+  }
+  
+  .search-input {
+    width: 200px; /* Adjust the width as needed */
+    background-color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .search-icon {
+    color: black;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search-bar {
+      justify-content: center; /* Center the search bar on smaller screens */
+    }
+    
+    .search-input {
+      width: 80%; /* Adjust the width for smaller screens */
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .header-global {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .header-global .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .header-global nav {
+      margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+  
+    .header-global nav div {
+      margin-right: 0;
+      margin-bottom: 10px; /* Adjust margin for smaller screens */
+    }
+  }
